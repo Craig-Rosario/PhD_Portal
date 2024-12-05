@@ -54,6 +54,7 @@
 
 .dashBoardMain{
     display: flex;
+    justify-content: space-between;
 }
 
 .mainThesis{ 

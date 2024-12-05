@@ -1,0 +1,54 @@
+
+
+.dropdown{
+    margin: 10px;
+}
+
+.mainDropdown{
+    width: 284px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 38px;
+    border: none;
+    background-color: rgb(187, 181, 181);
+}
+
+
+
+.evaluator{
+    display: flex;
+    justify-content: end;
+}
+
+.evaluator p{
+    margin: 20px 10px;
+    background: #FDF0D5;
+    padding: 20px;
+    font-size: 23px;
+}
+
+
+
+.labelMainEval{
+    font-size: 35px;
+    margin: 10px;
+}
+.mainEval{
+    margin: 10px;
+    background: #FDF0D5;
+    padding: 10px;
+    height: 200px;
+}
+
+
+.labelEvalReport{
+    font-size: 35px;
+    margin: 10px;
+}
+.evalReport{
+    margin: 10px;
+    background: #FDF0D5;
+    padding: 10px;
+    height: 200px;
+}

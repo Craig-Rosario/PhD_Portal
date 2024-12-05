@@ -6,6 +6,10 @@ const Sidebar = () => {
 
     const navigate=useNavigate();
 
+    const handleNavigation = (path) => {
+        navigate(path);
+    };
+
     const handleSignout=()=>{
         navigate('/');
     };
@@ -20,8 +24,8 @@ const Sidebar = () => {
             <div className="mainSection">
                 <nav>
                     <ul>
-                        <li>Dashboard</li>
-                        <li>Thesis Feedback</li>
+                        <li onClick={()=>handleNavigation('/dashboard')}>Dashboard</li>
+                        <li onClick={()=>handleNavigation('/thesisFeedback')}>Thesis Feedback</li>
                         <li>Thesis Details</li>
                         <li>Comments</li>
                         <li>Timeline</li>
