@@ -4,7 +4,7 @@ import LoginPage from './Components/LoginPage/LoginPage.jsx'
 import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import Sidebar from './Components/Sidebar/Sidebar.jsx';
 import ThesisFeedback from './Components/ThesisFeedback/ThesisFeedback.jsx';
-
+import ThesisDetails from './Components/ThesisDetails/ThesisDetails.jsx'
 
 const App = () => {
 
@@ -40,6 +40,16 @@ const App = () => {
                 <ThesisFeedback />
               </Layout>
             }
+          />
+
+          <Route
+            path='/thesisDetails'
+            element={
+              <Layout>
+                <ThesisDetails/>
+              </Layout>
+            }
+          
           />
         </Routes>
       </Router>
