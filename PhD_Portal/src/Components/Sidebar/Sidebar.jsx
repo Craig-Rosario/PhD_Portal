@@ -29,7 +29,7 @@ const Sidebar = () => {
                         <li onClick={()=>handleNavigation('/thesisDetails')}>Thesis Details</li>
                         <li>Comments</li>
                         <li>Timeline</li>
-                        <li>Guidelines</li>
+                        <li onClick={()=>handleNavigation('/guidelines')}>Guidelines</li>
                     </ul>
                 </nav>
             </div>

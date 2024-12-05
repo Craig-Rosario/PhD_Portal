@@ -5,6 +5,7 @@ import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import Sidebar from './Components/Sidebar/Sidebar.jsx';
 import ThesisFeedback from './Components/ThesisFeedback/ThesisFeedback.jsx';
 import ThesisDetails from './Components/ThesisDetails/ThesisDetails.jsx'
+import Guidelines from './Components/Guidelines/Guidelines.jsx';
 
 const App = () => {
 
@@ -49,6 +50,17 @@ const App = () => {
                 <ThesisDetails/>
               </Layout>
             }
+          />
+
+          <Route
+            path='/guidelines'
+            element={
+              <Layout>
+                <Guidelines/>
+              </Layout>
+            }
+          
+          
           
           />
         </Routes>
