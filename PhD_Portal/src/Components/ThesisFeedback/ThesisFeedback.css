@@ -51,4 +51,5 @@
     background: #FDF0D5;
     padding: 10px;
     height: 200px;
+    overflow-y: auto;
 }
