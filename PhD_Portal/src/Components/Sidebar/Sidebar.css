@@ -1,7 +1,19 @@
+
+html, body {
+    height: 100%;
+}
+
 .container{
     background-color: #780000;
     min-height: 100vh;
 }
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    min-height: 100%;
+}
+
 
 .topSection{
     display: flex;
