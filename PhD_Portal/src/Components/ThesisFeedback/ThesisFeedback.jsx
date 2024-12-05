@@ -4,15 +4,13 @@ import noti from '../../assets/noti.png';
 import prof from '../../assets/prof.png';
 
 const ThesisFeedback = () => {
-    const [selectThesis, setSelectThesis] = useState(''); // State declared correctly
-
+    const [selectThesis, setSelectThesis] = useState(''); 
     const changeHandler = (event) => {
-        setSelectThesis(event.target.value); // Event handler to update state
+        setSelectThesis(event.target.value); 
     };
 
     return (
         <>
-            {/* Navigation Bar */}
             <div className='navBar'>
                 <div className='hero'>Thesis Feedback</div>
                 <div className="buttons">
@@ -46,10 +44,10 @@ const ThesisFeedback = () => {
                     </div>
 
                     <div className='Evaluation'>
-                        <label htmlFor="mainEval" className='labelMainEval'>Evaluation</label>
+                        <label for="mainEval" className='labelMainEval'>Evaluation</label>
                         <div className='mainEval'>Lorem ipsum dolor sit amet.</div>
 
-                        <label htmlFor="EvalReport" className='labelEvalReport'>Evaluation Report</label>
+                        <label for="EvalReport" className='labelEvalReport'>Evaluation Report</label>
                         <div className='evalReport'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, a!</div>
                     </div>
                 </div>
