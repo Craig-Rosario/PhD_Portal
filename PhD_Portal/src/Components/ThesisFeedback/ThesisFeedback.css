@@ -35,6 +35,7 @@
     margin: 10px;
 }
 .mainEval{
+    border-radius: 10px;
     margin: 10px;
     background: #FDF0D5;
     padding: 10px;
@@ -47,9 +48,11 @@
     margin: 10px;
 }
 .evalReport{
+    font-size: 25px;
     margin: 10px;
     background: #FDF0D5;
     padding: 10px;
     height: 200px;
     overflow-y: auto;
+    border-radius: 10px;
 }
