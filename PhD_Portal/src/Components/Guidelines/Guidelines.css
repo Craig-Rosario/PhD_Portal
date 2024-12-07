@@ -1,7 +1,8 @@
-.guidlinesDetails{
+.guidelinesDetails{
     background: #FDF0D5;
     margin: 10px;
     height: 750px;
-    font-size: 30px;
+    font-size: 20px;
     padding: 15px;
+    overflow-y: auto;
 }
