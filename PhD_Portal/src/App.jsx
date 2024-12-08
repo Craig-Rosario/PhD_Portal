@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoginPage from './Components/LoginPage/LoginPage.jsx'
 import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import Sidebar from './Components/Sidebar/Sidebar.jsx';
+import ThesisUpload from './Components/ThesisUpload/ThesisUpload.jsx';
 import ThesisFeedback from './Components/ThesisFeedback/ThesisFeedback.jsx';
 import ThesisDetails from './Components/ThesisDetails/ThesisDetails.jsx'
 import Guidelines from './Components/Guidelines/Guidelines.jsx';
-
 const App = () => {
 
   const Layout = ({ children }) => (
@@ -59,9 +59,15 @@ const App = () => {
                 <Guidelines/>
               </Layout>
             }
-          
-          
-          
+          />
+
+          <Route
+            path='/thesisUpload'
+            element={
+              <Layout>
+                <ThesisUpload/>
+              </Layout>
+            }
           />
         </Routes>
       </Router>

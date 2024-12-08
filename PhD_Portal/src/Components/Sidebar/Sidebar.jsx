@@ -25,6 +25,7 @@ const Sidebar = () => {
                 <nav>
                     <ul>
                         <li onClick={()=>handleNavigation('/dashboard')}>Dashboard</li>
+                        <li onClick={()=>handleNavigation('/thesisUpload')}>Thesis Upload</li>
                         <li onClick={()=>handleNavigation('/thesisFeedback')}>Thesis Feedback</li>
                         <li onClick={()=>handleNavigation('/thesisDetails')}>Thesis Details</li>
                         <li>Comments</li>
