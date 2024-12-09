@@ -1,0 +1,43 @@
+.upload {
+    margin: 10px;
+}
+
+.uploadThesis p {
+    font-size: 25px;
+}
+
+.mainUpload {
+    height: 200px;
+    background: #FDF0D6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.uploadSupportingDocs {
+    margin: 20px 0;
+}
+
+.uploadSupportingDocs p {
+    font-size: 25px;
+}
+
+.submit {
+    margin: 10px;
+}
+
+.submitBtn {
+    width: 71px;
+    height: 35px;
+    font-size: 16px;
+    border: none;
+    background: #780000;
+    color: white;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    background: #850101;
+}
