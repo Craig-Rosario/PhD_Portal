@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import { useNavigate } from 'react-router-dom';
-import somaiyaFull from '../../assets/Somaiya.jpeg';
+import somaiyaFull from '../../assets/svu_logo.png';
 const Sidebar = () => {
 
     const navigate=useNavigate();
