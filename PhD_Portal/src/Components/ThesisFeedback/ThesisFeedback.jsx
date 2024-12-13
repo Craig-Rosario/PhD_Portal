@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './ThesisFeedback.css';
-import noti from '../../assets/noti.png';
-import prof from '../../assets/prof.png';
+import Navbar from '../Navbar/Navbar.jsx';
 
 const ThesisFeedback = () => {
     const [selectThesis, setSelectThesis] = useState(''); 
@@ -11,18 +10,7 @@ const ThesisFeedback = () => {
 
     return (
         <>
-            <div className='navBar'>
-                <div className='hero'>Thesis Feedback</div>
-                <div className="buttons">
-                    <button className='notiBtn'>
-                        <img src={noti} alt="Notification" />
-                    </button>
-                    <button className='profBtn'>
-                        <img src={prof} alt="Profile" />
-                    </button>
-                </div>
-            </div>
-
+            <Navbar Text = "Thesis Feedback"/> 
             
             <div className='dropdown'>
                 <select
@@ -36,7 +24,7 @@ const ThesisFeedback = () => {
                 </select>
             </div>
 
-            
+
             {selectThesis === 'thesis1' && (
                 <div>
                     <div className='evaluator'>

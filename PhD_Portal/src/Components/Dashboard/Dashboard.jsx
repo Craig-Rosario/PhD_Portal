@@ -1,21 +1,12 @@
 import React from 'react'
 import './Dashboard.css'
-import noti from '../../assets/noti.png'
+import Navbar from '../Navbar/Navbar.jsx'
 import prof from '../../assets/prof.png'
 
 const Dashboard = () => {
   return (
     <>
-      <div className='navBar'>
-        <div className='hero'>
-          Student Dashboard
-        </div>
-        <div className="buttons">
-          <button className='notiBtn'><img src={noti} alt="noti" /></button>
-          <button className='profBtn'><img src={prof} alt="prof" /></button>
-        </div>
-      </div>
-
+      <Navbar Text = "Dashboard" /> 
       <div className='noticeBoard'>
         <p><b>Notice Board</b></p>
         <p>Sample Text</p>
@@ -32,7 +23,6 @@ const Dashboard = () => {
             Progress Report
           </div>
         </div>
-
 
         <div className='Mentors'>
           <p>Mentors</p>

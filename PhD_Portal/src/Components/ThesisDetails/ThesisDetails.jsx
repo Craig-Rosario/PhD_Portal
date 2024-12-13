@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import './ThesisDetails.css'
-import noti from '../../assets/noti.png';
-import prof from '../../assets/prof.png';
+import Navbar from '../Navbar/Navbar.jsx';
 
 const ThesisDetails = () => {
 
@@ -13,18 +12,8 @@ const ThesisDetails = () => {
 
   return (
     <>
-        <div className='navBar'>
-            <div className='hero'>Thesis Details</div>
-            <div className="buttons">
-                <button className='notiBtn'>
-                    <img src={noti} alt="Notification" />
-                </button>
-                <button className='profBtn'>
-                    <img src={prof} alt="Profile" />
-                </button>
-            </div>
-        </div>
-    
+        <Navbar Text = "Thesis Details"/> 
+
         <div className='dropdown'>
             <select
                 className='mainDropdown'
@@ -36,8 +25,6 @@ const ThesisDetails = () => {
                 
             </select>
         </div>
-
-
 
         {selectThesis === 'thesis1' && (
             <div>

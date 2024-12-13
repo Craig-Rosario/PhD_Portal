@@ -2,11 +2,13 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoginPage from './Components/LoginPage/LoginPage.jsx'
 import Dashboard from './Components/Dashboard/Dashboard.jsx';
+import Profile from './Components/Profile/Profile.jsx';
 import Sidebar from './Components/Sidebar/Sidebar.jsx';
 import ThesisUpload from './Components/ThesisUpload/ThesisUpload.jsx';
 import ThesisFeedback from './Components/ThesisFeedback/ThesisFeedback.jsx';
 import ThesisDetails from './Components/ThesisDetails/ThesisDetails.jsx'
 import Guidelines from './Components/Guidelines/Guidelines.jsx';
+
 const App = () => {
 
   const Layout = ({ children }) => (
@@ -34,6 +36,16 @@ const App = () => {
               </Layout>
             }
           />
+
+          <Route
+            path = '/profile'
+            element = {
+              <Layout>
+                <Profile />
+              </Layout>
+            }
+          />
+          
           <Route
             path='/thesisFeedback'
             element={
@@ -43,6 +55,7 @@ const App = () => {
             }
           />
 
+         
           <Route
             path='/thesisDetails'
             element={

@@ -1,22 +1,12 @@
 import React from 'react'
 import './Guidelines.css'
-import noti from '../../assets/noti.png';
-import prof from '../../assets/prof.png';
+import Navbar from '../Navbar/Navbar.jsx'
 
 const Guidelines = () => {
     return (
         <>
-            <div className='navBar'>
-                <div className='hero'>Thesis Details</div>
-                <div className="buttons">
-                    <button className='notiBtn'>
-                        <img src={noti} alt="Notification" />
-                    </button>
-                    <button className='profBtn'>
-                        <img src={prof} alt="Profile" />
-                    </button>
-                </div>
-            </div>
+            <Navbar Text = "Guidelines" /> 
+
 
             <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}className='guidelinesDetails'>
                 <h3>1. <strong>Format:</strong></h3>
