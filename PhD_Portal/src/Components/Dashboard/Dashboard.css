@@ -3,40 +3,6 @@
     padding: 0;
 }
 
-.navBar{
-    display: flex;
-    justify-content: space-between;
-    font-size: 40px;
-    padding: 10px;
-}
-
-.buttons{
-    margin: 0 20px;
-}
-
-.notiBtn{
-    margin: 10px;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-.notiBtn img{
-    width: 25px;
-}
-
-.profBtn{
-    margin: 10px;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-.profBtn img{
-    width: 40px;
-}
-
-
-
-
 .noticeBoard{
     height: 200px;
     border: 2px solid;
@@ -46,11 +12,10 @@
     margin: 30px 0;
     font-size: 22px;
 }
+
 .noticeBoard h2{
     margin: 8px 0;
 }
-
-
 
 .dashBoardMain{
     display: flex;
@@ -79,8 +44,6 @@
     font-size: 25px;
 }
 
-
-
 .Mentors{
     width: 22vw;
     background: #FDF0D5F5;
@@ -101,3 +64,4 @@
     width: 40px;
     margin: 0 10px;
 }
+
