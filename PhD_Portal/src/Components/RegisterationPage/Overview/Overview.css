@@ -1,0 +1,40 @@
+.overview {
+    margin: 10px;
+    background: #FDF0D5;
+    border-radius: 10px;
+    padding: 20px;
+    height: auto;
+    font-size: 30px;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box; 
+}
+
+.documentsList {
+    margin: 0 0 0 50px;
+}
+
+.cntBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto; 
+}
+
+.cntBtn button {
+    width: auto;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+    background: #780000;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+.cntBtn button:hover {
+    background: #960202;
+}

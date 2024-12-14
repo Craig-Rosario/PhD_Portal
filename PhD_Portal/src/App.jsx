@@ -9,6 +9,10 @@ import ThesisFeedback from './Components/ThesisFeedback/ThesisFeedback.jsx';
 import ThesisDetails from './Components/ThesisDetails/ThesisDetails.jsx'
 import Guidelines from './Components/Guidelines/Guidelines.jsx';
 
+
+import RegSidebar from './Components/RegisterationPage/RegSidebar/RegSidebar.jsx';
+import Overview from './Components/RegisterationPage/Overview/Overview.jsx';
+
 const App = () => {
 
   const Layout = ({ children }) => (
@@ -22,12 +26,35 @@ const App = () => {
     </div>
   );
 
+  const RegLayout = ({ children }) => {
+  return (
+    <div style={{ display: 'flex', height: '100vh' }}>
+      <div style={{ width: '350px', background: '#f0f0f0' }}>
+        <RegSidebar />
+      </div>
+      <div style={{ flex: 1, padding: '20px' }}>
+        {children}
+      </div>
+    </div>
+  );
+};
+
 
   return (
     <>
       <Router>
         <Routes>
+
           <Route path='/' element={<LoginPage />} />
+          <Route
+            path='/Overview'
+            element={
+              <RegLayout>
+                <Overview />
+              </RegLayout>
+            }
+
+          />
           <Route
             path='/dashboard'
             element={
@@ -38,14 +65,14 @@ const App = () => {
           />
 
           <Route
-            path = '/profile'
-            element = {
+            path='/profile'
+            element={
               <Layout>
                 <Profile />
               </Layout>
             }
           />
-          
+
           <Route
             path='/thesisFeedback'
             element={
@@ -55,12 +82,12 @@ const App = () => {
             }
           />
 
-         
+
           <Route
             path='/thesisDetails'
             element={
               <Layout>
-                <ThesisDetails/>
+                <ThesisDetails />
               </Layout>
             }
           />
@@ -69,7 +96,7 @@ const App = () => {
             path='/guidelines'
             element={
               <Layout>
-                <Guidelines/>
+                <Guidelines />
               </Layout>
             }
           />
@@ -78,7 +105,7 @@ const App = () => {
             path='/thesisUpload'
             element={
               <Layout>
-                <ThesisUpload/>
+                <ThesisUpload />
               </Layout>
             }
           />

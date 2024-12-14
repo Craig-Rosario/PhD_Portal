@@ -27,6 +27,12 @@
     margin: 10px 0;
     cursor: pointer;
 }
+.LoginSide a{
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+}
 
 .ImageSide{
     background-color: #780000;
