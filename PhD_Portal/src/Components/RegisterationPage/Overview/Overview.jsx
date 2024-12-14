@@ -1,6 +1,6 @@
 import React from 'react'
 import './Overview.css'
-
+import ButtonLink from '../../ButtonLink/ButtonLink'
 const Overview = () => {
     return (
         <>
@@ -27,11 +27,11 @@ const Overview = () => {
                     <br />
                     <label>
                         <input type="checkbox" />
-                        I agree that all the information provided is true to the best of my knowledge, and all the documents submitted are original.
+                        &ensp; I agree that all the information provided is true to the best of my knowledge, and all the documents submitted are original.
                     </label>
 
                     <div className='cntBtn'>
-                        <button>Continue</button>
+                        <ButtonLink to='/personalDetails' children='Continue' />
                     </div>
                 </div>
             </div>
