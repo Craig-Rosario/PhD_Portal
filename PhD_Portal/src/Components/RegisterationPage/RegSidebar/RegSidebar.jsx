@@ -31,9 +31,9 @@ const RegSidebar = () => {
                     <nav>
                         <ul>
                             <li onClick={()=>handleNavigation('/Overview')}>Overview</li>
-                            <li>Personal Details</li>
-                            <li>Education Details</li>
-                            <li>Documents</li>
+                            <li onClick={()=>handleNavigation('/PersonalDetails')}>Personal Details</li>
+                            <li onClick={()=>handleNavigation('/EducationDetails')}>Education Details</li>
+                            <li onClick={()=>handleNavigation('/Documents')}>Documents</li>
                         </ul>
                     </nav>
                 </div>

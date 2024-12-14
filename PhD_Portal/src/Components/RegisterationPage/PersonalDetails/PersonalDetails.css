@@ -1,0 +1,181 @@
+.personalDetails{
+    height: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FDF0D5;
+}
+
+input{
+    background-color: #E3E3E3;
+    color: black;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 10px !important;
+}
+
+.name{
+    display: flex;
+}
+ 
+.name input{
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    margin-right:5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.title{
+    width: 10%;
+}
+
+.firstName{
+    width: 30%;
+}
+
+.middleName{
+    width: 30%;
+}
+
+.lastName{
+    width: 30%;
+    margin-right: 0px !important;
+}
+
+.parentNames{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.parentNames input{
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.nameSection{
+    margin-bottom: 15px;
+}
+
+.address input{
+    text-align: center;
+    font-size: 20px;
+    height: 90px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.DOBGender{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.dobGenderHeader{
+    display: flex;
+    width: 50%;
+    justify-content: space-between !important;
+    flex-direction: row;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.dobGenderHeader h1{
+    width: 40%;
+}
+
+.dobGenderInput{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.dob{
+    width: 40%;
+}
+
+.dob input{
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    margin-right:5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px
+}
+
+.Gender{
+    width: 40%;
+} 
+
+.Gender select{ 
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    margin-right:5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-bottom: 40px;
+}
+
+.contactNumber{
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.contact input{
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    margin-right:5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.email{
+    width: 50%;
+    margin-bottom: 15px;
+    padding-left: 10%;
+}
+
+.email input{
+    text-align: center;
+    font-size: 20px;
+    height: 40px;   
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}

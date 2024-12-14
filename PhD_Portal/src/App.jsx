@@ -8,7 +8,7 @@ import ThesisUpload from './Components/ThesisUpload/ThesisUpload.jsx';
 import ThesisFeedback from './Components/ThesisFeedback/ThesisFeedback.jsx';
 import ThesisDetails from './Components/ThesisDetails/ThesisDetails.jsx'
 import Guidelines from './Components/Guidelines/Guidelines.jsx';
-
+import PersonalDetails from './Components/RegisterationPage/PersonalDetails/PersonalDetails.jsx';
 
 import RegSidebar from './Components/RegisterationPage/RegSidebar/RegSidebar.jsx';
 import Overview from './Components/RegisterationPage/Overview/Overview.jsx';
@@ -53,7 +53,14 @@ const App = () => {
                 <Overview />
               </RegLayout>
             }
-
+          />
+          <Route
+            path='/PersonalDetails'
+            element={
+              <RegLayout>
+                <PersonalDetails />
+              </RegLayout>
+            }
           />
           <Route
             path='/dashboard'
