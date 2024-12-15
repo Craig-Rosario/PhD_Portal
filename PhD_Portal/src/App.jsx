@@ -12,6 +12,7 @@ import PersonalDetails from './Components/RegisterationPage/PersonalDetails/Pers
 
 import RegSidebar from './Components/RegisterationPage/RegSidebar/RegSidebar.jsx';
 import Overview from './Components/RegisterationPage/Overview/Overview.jsx';
+import EducationDetails from './Components/RegisterationPage/EducationDetails/EducationDetails.jsx';
 
 const App = () => {
 
@@ -62,6 +63,17 @@ const App = () => {
               </RegLayout>
             }
           />
+          <Route
+            path='/EducationDetails'
+            element={
+              <RegLayout>
+                <EducationDetails/>
+              </RegLayout>
+            }
+          
+          />
+
+
           <Route
             path='/dashboard'
             element={
