@@ -7,3 +7,16 @@
     overflow-y: auto;
     border-radius: 10px;
 }
+
+.guidelinesDetails::-webkit-scrollbar{
+    width: 10px;
+}
+
+.guidelinesDetails::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.guidelinesDetails::-webkit-scrollbar-thumb{
+    background: #7f7257;
+    border-radius: 4px;
+}
