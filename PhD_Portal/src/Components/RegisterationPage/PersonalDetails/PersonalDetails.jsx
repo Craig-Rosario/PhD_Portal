@@ -55,7 +55,7 @@ const PersonalDetails = () => {
                     <input type="email" placeholder="Email" className="Email"/>
                 </div>
             </div>
-            <div className='cntBtn'>
+            <div className="cntBtn">
             <ButtonLink to='/EducationDetails' children='Continue' />
             </div>
         </div>

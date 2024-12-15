@@ -114,6 +114,7 @@ h1{
     height: 40px;
     width: 100%;
     margin-right:5px;
+    margin-top: 0px;
     border-radius: 5px;
     border: 1px solid #ccc;
     padding: 5px
@@ -131,6 +132,7 @@ h1{
     margin-right:5px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: #ccc;
     padding: 5px;
 }
 
@@ -178,4 +180,20 @@ h1{
     border-radius: 5px;
     border: 1px solid #ccc;
     padding: 5px;
+}
+
+.contBtn{
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+    background: #780000;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.3s ease;
+    padding: 0.5rem 1rem;
+    align-items: center;
+
 }

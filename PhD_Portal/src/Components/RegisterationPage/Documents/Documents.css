@@ -1,0 +1,76 @@
+
+
+.docDetails{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FDF0D5;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+}
+
+label{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0.75rem 0;
+}
+
+input{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    margin: 0.5rem 0;
+
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.file-upload-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #E3E3E3;
+    color: #000;
+    cursor: pointer;
+    margin: 0.5rem 0;
+    text-align: center;
+    width: 30%;
+}
+
+.file-upload-button:hover {
+    background-color: #8d8d8d;
+}
+
+.fileName {
+    margin: 3rem;
+    font-size: 1.75rem;
+    padding: 0.5rem 0;
+    color: #333;
+}
+
+.fileName:hover{
+    color: #C1121F;
+}
+
+.lastDoc{
+    margin-bottom: 3rem;
+}
+
+.submitBtn{
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+    background: #780000;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background 0.3s ease;
+    padding: 0.5rem 1rem;
+    margin-bottom: 4rem;
+}
