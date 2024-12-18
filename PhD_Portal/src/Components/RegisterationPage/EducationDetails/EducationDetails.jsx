@@ -54,8 +54,8 @@ const EducationDetails = () => {
                         </div>
                         <div className="pastExperience">
                             <h1>Past Experience</h1>
-                            <input type="radio" name="pastExperience" id="yes" onChange={handleExperienceChange}/><label for="yes">Yes</label>
-                            <input type="radio" name="pastExperience" id="no" onChange={handleExperienceChange}/><label for="no">No</label>
+                            <input type="radio" name="pastExperience" id="yes" onChange={handleExperienceChange}/><label for="yes" className ="radioLabel">Yes</label>
+                            <input type="radio" name="pastExperience" id="no" onChange={handleExperienceChange}/><label for="no" className ="radioLabel">No</label>
                         </div>
                         {hasPastExperience && (
                         <div className="experienceDetails">
@@ -83,7 +83,7 @@ const EducationDetails = () => {
                     </div>
                 </div>
             </div>
-            <div className="cntBtn">
+            <div className="cntBtnEducation">
             <ButtonLink to="/Documents" children="Continue" />
             </div>
             </div>

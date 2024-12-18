@@ -12,8 +12,13 @@
     overflow-y: auto;
 }
 
+.docDetails h1{
+    font-size: 30px;
+    margin-bottom: 10px !important;
+}
+
 .docDetails label{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     margin: 0.75rem 0;
 }

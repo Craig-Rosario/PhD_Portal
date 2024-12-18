@@ -120,6 +120,7 @@ h1{
     padding: 5px
 }
 
+
 .Gender{
     width: 40%;
 } 
@@ -132,6 +133,7 @@ h1{
     margin-right:5px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: #E3E3E3;
     padding: 5px;
 }
 
