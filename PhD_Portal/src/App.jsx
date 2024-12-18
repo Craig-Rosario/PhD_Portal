@@ -9,9 +9,10 @@ import ThesisFeedback from './Components/ThesisFeedback/ThesisFeedback.jsx';
 import ThesisDetails from './Components/ThesisDetails/ThesisDetails.jsx'
 import Guidelines from './Components/Guidelines/Guidelines.jsx';
 import PersonalDetails from './Components/RegisterationPage/PersonalDetails/PersonalDetails.jsx';
-
 import RegSidebar from './Components/RegisterationPage/RegSidebar/RegSidebar.jsx';
 import Overview from './Components/RegisterationPage/Overview/Overview.jsx';
+import Documents from './Components/RegisterationPage/Documents/Documents.jsx';
+import EducationDetails from './Components/RegisterationPage/EducationDetails/EducationDetails.jsx';
 
 const App = () => {
 
@@ -59,6 +60,22 @@ const App = () => {
             element={
               <RegLayout>
                 <PersonalDetails />
+              </RegLayout>
+            }
+          />
+          <Route
+            path='/EducationDetails'
+            element={
+              <RegLayout>
+                <EducationDetails />
+              </RegLayout>
+            }
+          />
+          <Route
+            path='/Documents'
+            element={
+              <RegLayout>
+                <Documents />
               </RegLayout>
             }
           />

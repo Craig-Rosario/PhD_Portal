@@ -56,7 +56,7 @@ const PersonalDetails = () => {
                 </div>
             </div>
             <div className="cntBtn">
-            <ButtonLink to='/EducationDetails' children='Continue' className="eduDetailsBtn"/>
+                <ButtonLink to='/EducationDetails' children='Continue' className="eduDetailsBtn"/>
             </div>
         </div>
         </>

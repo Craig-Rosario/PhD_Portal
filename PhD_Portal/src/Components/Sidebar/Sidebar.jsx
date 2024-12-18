@@ -19,7 +19,7 @@ const Sidebar = () => {
     <div className='container'>
         <div className="sideBar">
             <div className="topSection">
-                <img src={somaiyaFull} alt="somaiya logo" className='somaiyaLogo'/>
+                <a href='/Dashboard'><img src={somaiyaFull} alt="somaiya logo" className='somaiyaLogo'/></a>
             </div>
             <div className="mainSection">
                 <nav>
