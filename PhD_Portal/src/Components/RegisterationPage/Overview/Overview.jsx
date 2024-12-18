@@ -5,7 +5,7 @@ const Overview = () => {
     return (
         <>
             <h1>Welcome </h1>
-            <div className='overview'>
+            <div className='overview customScrollbar'>
                 <div>
                     <p>We are pleased to welcome you to our research community. </p>
                     <br />
@@ -26,7 +26,7 @@ const Overview = () => {
                     <p>Wishing you a productive and enriching doctoral experience.</p>
                     <br />
                     <label>
-                        <input type="checkbox" />
+                        <input type="checkbox" className="checkBox"/>
                         &ensp; I agree that all the information provided is true to the best of my knowledge, and all the documents submitted are original.
                     </label>
 

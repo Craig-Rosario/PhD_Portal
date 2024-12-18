@@ -5,7 +5,7 @@ import prof from '../../assets/prof.png'
 
 const Dashboard = () => {
   return (
-    <>
+    <div className="dashboard">
       <Navbar Text = "Dashboard" /> 
       <div className='noticeBoard'>
         <p><b>Notice Board</b></p>
@@ -44,7 +44,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

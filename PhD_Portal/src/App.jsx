@@ -17,15 +17,15 @@ const App = () => {
 
   const Layout = ({ children }) => (
     <div style={{ display: 'flex', height: '100vh' }}>
-      <div style={{ width: '350px', background: '#f0f0f0' }}>
+      <div style={{ width: '350px' }}>
         <Sidebar />
       </div>
-      <div style={{ flex: 1, padding: '20px' }}>
+      <div style={{ flex: 1, padding: '20px', height: '100%', overflowY: 'auto' }}>
         {children}
       </div>
     </div>
   );
-
+  
   const RegLayout = ({ children }) => {
   return (
     <div style={{ display: 'flex', height: '100vh' }}>

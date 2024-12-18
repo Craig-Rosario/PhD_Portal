@@ -1,11 +1,12 @@
 .personalDetails{
-    height: 90%;
+    height: 80%;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
     border-radius: 10px;
     background-color: #FDF0D5;
+    overflow-y: auto;
 }
 
 input{
@@ -138,7 +139,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    margin-bottom: 40px;
+    margin-bottom: 1rem;
 }
 
 .contactNumber{
@@ -178,4 +179,23 @@ h1{
     border-radius: 5px;
     border: 1px solid #ccc;
     padding: 5px;
+}
+
+.contBtn{
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    padding: 11px;
+    background: #780000;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background 0.3s ease;
+    padding: 0.5rem 1rem;
+    align-items: center;
+}
+
+.eduDetailsBtn{
+    margin-top: 0 !important;
 }
