@@ -11,8 +11,9 @@ import Guidelines from './Components/Guidelines/Guidelines.jsx';
 import PersonalDetails from './Components/RegisterationPage/PersonalDetails/PersonalDetails.jsx';
 import RegSidebar from './Components/RegisterationPage/RegSidebar/RegSidebar.jsx';
 import Overview from './Components/RegisterationPage/Overview/Overview.jsx';
-import Documents from './Components/RegisterationPage/Documents/Documents.jsx';
 import EducationDetails from './Components/RegisterationPage/EducationDetails/EducationDetails.jsx';
+import Documents from './Components/RegisterationPage/Documents/Documents.jsx';
+
 
 const App = () => {
 
@@ -55,6 +56,7 @@ const App = () => {
               </RegLayout>
             }
           />
+          
           <Route
             path='/PersonalDetails'
             element={
@@ -63,6 +65,25 @@ const App = () => {
               </RegLayout>
             }
           />
+          
+          <Route
+            path='/EducationDetails'
+            element={
+              <RegLayout>
+                <EducationDetails/>
+              </RegLayout>
+            }
+          />
+          
+          <Route
+            path='/Documents'
+            element={
+              <RegLayout>
+                <Documents />
+              </RegLayout>
+            }
+          />
+
           <Route
             path='/EducationDetails'
             element={
