@@ -1,7 +1,7 @@
 .guidelinesDetails{
     background: #FDF0D5;
     margin: 10px;
-    height: 750px;
+    height: 80%;
     font-size: 20px;
     padding: 15px;
     overflow-y: auto;
@@ -17,6 +17,6 @@
 }
 
 .guidelinesDetails::-webkit-scrollbar-thumb{
-    background: #7f7257;
+    background: #7f7257;    
     border-radius: 4px;
 }

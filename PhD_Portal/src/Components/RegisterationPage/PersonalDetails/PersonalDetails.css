@@ -1,11 +1,12 @@
 .personalDetails{
-    height: 90%;
+    height: 80%;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
     border-radius: 10px;
     background-color: #FDF0D5;
+    overflow-y: auto;
 }
 
 input{
@@ -120,6 +121,7 @@ h1{
     padding: 5px
 }
 
+
 .Gender{
     width: 40%;
 } 
@@ -132,7 +134,8 @@ h1{
     margin-right:5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color: #ccc;
+    background-color: #E3E3E3;
+
     padding: 5px;
 }
 
@@ -140,7 +143,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    margin-bottom: 40px;
+    margin-bottom: 1rem;
 }
 
 .contactNumber{
@@ -195,5 +198,8 @@ h1{
     transition: background 0.3s ease;
     padding: 0.5rem 1rem;
     align-items: center;
+}
 
+.eduDetailsBtn{
+    margin-top: 0 !important;
 }

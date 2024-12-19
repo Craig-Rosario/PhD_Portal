@@ -14,19 +14,20 @@ import Overview from './Components/RegisterationPage/Overview/Overview.jsx';
 import EducationDetails from './Components/RegisterationPage/EducationDetails/EducationDetails.jsx';
 import Documents from './Components/RegisterationPage/Documents/Documents.jsx';
 
+
 const App = () => {
 
   const Layout = ({ children }) => (
     <div style={{ display: 'flex', height: '100vh' }}>
-      <div style={{ width: '350px', background: '#f0f0f0' }}>
+      <div style={{ width: '350px' }}>
         <Sidebar />
       </div>
-      <div style={{ flex: 1, padding: '20px' }}>
+      <div style={{ flex: 1, padding: '20px', height: '100%', overflowY: 'auto' }}>
         {children}
       </div>
     </div>
   );
-
+  
   const RegLayout = ({ children }) => {
   return (
     <div style={{ display: 'flex', height: '100vh' }}>
@@ -83,6 +84,22 @@ const App = () => {
             }
           />
 
+          <Route
+            path='/EducationDetails'
+            element={
+              <RegLayout>
+                <EducationDetails />
+              </RegLayout>
+            }
+          />
+          <Route
+            path='/Documents'
+            element={
+              <RegLayout>
+                <Documents />
+              </RegLayout>
+            }
+          />
           <Route
             path='/dashboard'
             element={

@@ -6,7 +6,7 @@ const PersonalDetails = () => {
     return (
         <>
         <h1 className="heading">Personal Details</h1>
-        <div className = "personalDetails">
+        <div className = "personalDetails customScrollbar">
             <h1>Name</h1>
             <div className = "nameSection">
                 <div className = "name">    
@@ -56,7 +56,7 @@ const PersonalDetails = () => {
                 </div>
             </div>
             <div className="cntBtn">
-            <ButtonLink to='/EducationDetails' children='Continue' />
+                <ButtonLink to='/EducationDetails' children='Continue' className="eduDetailsBtn"/>
             </div>
         </div>
         </>

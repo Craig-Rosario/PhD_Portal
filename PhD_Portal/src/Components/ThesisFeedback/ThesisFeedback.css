@@ -1,7 +1,9 @@
-
-
 .dropdown{
     margin: 10px;
+}
+
+.thesisFeedbck{
+    height: 100%;
 }
 
 .mainDropdown{
@@ -14,45 +16,52 @@
     background-color: rgb(187, 181, 181);
 }
 
-
-
+.thesisSection{
+    height: 70%
+}
 .evaluator{
     display: flex;
     justify-content: end;
+    align-items: center;
+    height: 10%;
 }
 
 .evaluator p{
-    margin: 20px 10px;
+    margin: 10px;
     background: #FDF0D5;
-    padding: 20px;
-    font-size: 23px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
 }
-
-
 
 .labelMainEval{
     font-size: 35px;
     margin: 10px;
 }
+
+.Evaluation{
+    height: 90%;
+}
+
 .mainEval{
     border-radius: 10px;
     margin: 10px;
     background: #FDF0D5;
     padding: 10px;
-    height: 200px;
+    height: 40%;
 }
-
 
 .labelEvalReport{
     font-size: 35px;
     margin: 10px;
 }
+
 .evalReport{
     font-size: 25px;
     margin: 10px;
     background: #FDF0D5;
     padding: 10px;
-    height: 200px;
+    height: 40%;
     overflow-y: auto;
     border-radius: 10px;
 }

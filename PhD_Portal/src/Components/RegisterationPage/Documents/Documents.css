@@ -1,30 +1,37 @@
-
+.docContainer{
+    height: 100%;
+}
 
 .docDetails{
-    height: 100%;
+    height: 90%;    
     display: flex;
     flex-direction: column;
     background-color: #FDF0D5;
     border-radius: 10px;
     padding: 0.5rem 1rem;
+    overflow-y: auto;
 }
 
-label{
-    font-size: 2rem;
+.docDetails h1{
+    font-size: 30px;
+    margin-bottom: 10px !important;
+}
+
+.docDetails label{
+    font-size: 1.5rem;
     font-weight: 500;
     margin: 0.75rem 0;
 }
 
-input{
+.docDetails input{
     font-size: 1.5rem;
     padding: 0.5rem;
     border-radius: 10px;
     border: none;
     margin: 0.5rem 0;
-
 }
 
-input[type="file"]{
+.docDetails input[type="file"]{
     display: none;
 }
 
@@ -57,10 +64,17 @@ input[type="file"]{
 }
 
 .lastDoc{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
-.submitBtn{
+.Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.submitBtnR{
     width: auto;
     height: auto;
     border: none;
@@ -72,5 +86,5 @@ input[type="file"]{
     font-size: 25px;
     transition: background 0.3s ease;
     padding: 0.5rem 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }

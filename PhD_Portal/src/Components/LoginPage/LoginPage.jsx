@@ -15,20 +15,17 @@ const LoginPage = () => {
   };
 
   return (
-    <>
       <div className='LoginPage'>
         <div className='LoginSide'>
             <img src={SomaiyaLogo} alt="Somaiya Logo" className='SomaiyaLogo'/>
             Login to Portal!
             <button className='LoginBtn' onClick={handleLogin}>Login</button>
-            <a onClick={handleFirstLogin}>First time Login?</a>
+            <a onClick={handleFirstLogin}>First time?</a>
         </div>
         <div className='ImageSide'>
           <img src={Ganesh} alt="Ganesh img" className='GaneshImg'/>
         </div>
-
       </div>
-    </>
   )
 }
 

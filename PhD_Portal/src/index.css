@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar{
   width: 10px;
 }
@@ -19,3 +23,19 @@
 ::-webkit-scrollbar-thumb:hover{
   background: #555;
 }
+
+.customScrollbar::-webkit-scrollbar{
+  width: 10px;
+}
+
+.customScrollbar::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb{
+  background: #7f725793;    
+  border-radius: 4px;
+}
+
+.customScrollbar::-webkit-scrollbar-thumb:hover{
+  background: #7f7257;

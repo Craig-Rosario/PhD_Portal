@@ -27,24 +27,19 @@ const ThesisDetails = () => {
         </div>
 
         {selectThesis === 'thesis1' && (
-            <div>
-                <div className='thesisInfo'>
-                    <div className='thesisDetails'>
-                        <p>Thesis Details:</p>
-                        <div className='inputDetails'>
-                            <input type="text" placeholder='Thesis Title' className='input'/>
-                            <input type="text" placeholder='Candidate name' className='input' />
-                            <input type="text" placeholder='Co-ordinatiors' className='input'/>
-                            <input type="text" placeholder='Department'className='input' />
-                            <input type="date"className='input' />
-
-                        </div>
-
+            <div className='thesisInfo'>
+                <label for="thesisDetails" className="sectionHeader">Thesis Details:</label>
+                <div className='thesisDetails'>
+                    <div className='inputDetails'>
+                        <input type="text" placeholder='Thesis Title' className='input'/>
+                        <input type="text" placeholder='Candidate name' className='input' />
+                        <input type="text" placeholder='Co-ordinatiors' className='input'/>
+                        <input type="text" placeholder='Department'className='input' />
+                        <input type="date" placeholder='Date of Submission' className='input date-picker' />
                     </div>
-
-                    <label for="thesisview" className='labelThesisView'>View Thesis</label>
-                    <div className='thesisview'>Add file</div>
                 </div>
+                <label for="thesisview" className='sectionHeader'>View Thesis</label>
+                <div className='thesisview'>Add file</div>
             </div>
         )}
     </>
