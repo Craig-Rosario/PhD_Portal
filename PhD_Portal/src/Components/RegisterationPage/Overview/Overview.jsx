@@ -1,8 +1,16 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Overview.css'
 import ButtonLink from '../../ButtonLink/ButtonLink'
 
 const Overview = () => {
+
+    const[isChecked,setIsChecked]=useState(false);
+
+    const handleCheckbox=(event)=>{
+        setIsChecked(event.target.checked);
+    }
+
+
     return (
         <>
             <h1>Welcome </h1>
@@ -27,12 +35,12 @@ const Overview = () => {
                     <p>Wishing you a productive and enriching doctoral experience.</p>
                     <br />
                     <label>
-                        <input type="checkbox" className="checkBox"/>
+                        <input type="checkbox" className="checkBox" checked={isChecked} onChange={handleCheckbox}/>
                         &ensp; I agree that all the information provided is true to the best of my knowledge, and all the documents submitted are original.
                     </label>
 
                     <div className='cntBtn'>
-                        <ButtonLink to='/personalDetails' children='Continue' />
+                        <ButtonLink to={isChecked?'/personalDetails':'#'} children='Continue' />
                     </div>
                 </div>
             </div>
