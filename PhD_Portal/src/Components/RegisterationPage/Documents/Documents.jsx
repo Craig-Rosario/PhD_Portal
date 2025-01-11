@@ -49,6 +49,12 @@ const Documents = () => {
                 <label htmlFor="transferCert" className="file-upload-button">Upload File</label>
                 {fileNames.transferCert && <span className="fileName">{fileNames.transferCert}</span>}
             </label>
+            <label className='docLabel'>
+                <h1>Fee Receipt</h1>
+                <input type="file" className='docInput' id="FeeReceipt" onChange={(e) => handleFileChange(e, 'FeeReceipt')} />
+                <label htmlFor="FeeReceipt" className="file-upload-button">Upload File</label>
+                {fileNames.FeeReceipt && <span className="fileName">{fileNames.FeeReceipt}</span>}
+            </label>
             <label className='docLabel lastDoc'>
                 <h1>Migration Certificate</h1>
                 <input type="file" className='docInput' id="migrationCert" onChange={(e) => handleFileChange(e, 'migrationCert')} />

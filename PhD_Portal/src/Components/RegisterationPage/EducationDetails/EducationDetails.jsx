@@ -36,10 +36,20 @@ const EducationDetails = () => {
                 <div className="education">
                     <div className="educationSection">
                         <div className="educationDegree">
-                        <div className="doctorate">
+                        <div className = "doctorate">
                         <h1>Doctorate</h1>
-                        <input type="text" placeholder="Branch / Department of Research" />
-                        </div>
+                        <select name = "doctorate" id = "doctorate">
+                            <option disabled selected value>Select</option>
+                            <option>Computer Engineering</option>
+                            <option>Electronics Engineering</option>
+                            <option>Electronics Engineering</option>
+                            <option>Electronics and Telecommunication Engineering</option>
+                            <option>Information Technology</option>
+                            <option>Mechanical Engineering</option>
+                            <option>Energy Engineering</option>
+                        </select>
+                    </div>
+
                         <div className="postGraduation">
                         <h1>Post-graduation</h1>
                         <input type="text" placeholder="Title of PG degree" />
