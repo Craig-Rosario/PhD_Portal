@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoginPage from './Components/LoginPage/LoginPage.jsx'
 import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import Profile from './Components/Profile/Profile.jsx';
-import Sidebar from './Components/Sidebar/Sidebar.jsx';
+import SidebarRender from './Components/Sidebar/SidebarRender.jsx';
 import ThesisUpload from './Components/ThesisUpload/ThesisUpload.jsx';
 import ThesisFeedback from './Components/ThesisFeedback/ThesisFeedback.jsx';
 import ThesisDetails from './Components/ThesisDetails/ThesisDetails.jsx'
@@ -19,10 +19,10 @@ const App = () => {
 
   const Layout = ({ children }) => (
     <div style={{ display: 'flex', height: '100vh' }}>
-      <div style={{ width: '350px' }}>
-        <Sidebar />
+      <div style={{ width: '20vw' }}>
+        <SidebarRender />
       </div>
-      <div style={{ flex: 1, padding: '20px', height: '100%', overflowY: 'auto' }}>
+      <div style={{ flex: 1, padding: '20px', height: '100%', overflowY: 'auto', width: '70vw' }}>
         {children}
       </div>
     </div>
