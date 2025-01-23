@@ -4,14 +4,14 @@ html, body {
     background-color: transparent;
 }
 
-.container{
+.Collapsed-container{
     position: fixed;
     background-color: #780000;
     min-height: 100vh;
-    width: 20%;
+    width: 80px;
 }
 
-.sideBar {
+.Collapsed-sideBar {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
@@ -19,37 +19,43 @@ html, body {
     width: 100%;
 }
 
-.mainPortalTopBar{
+.Collapsed-mainPortalTopBar{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     background-color: #780000;
     padding: 10px;
-    padding-left: 20px;
 }
 
-.sideBar > .topSection{
+.Collapsed-sideBar  .Collapsed-topSection{
     display: flex;
     justify-content: center;
-    width: 80%;
-    height: 80%;
+    align-items: center;
+    width: auto;
+    height: auto;
 }
 
-.sideBar  .somaiyaLogo{
+.Collapsed-topSection > a{
+    display: flex;
+    justify-content: center;
+}
+
+.Collapsed-sideBar  .Collapsed-somaiyaLogo{
     width: 100%;
     height: auto;
     image-resolution: from-image;
 }
 
-.mainCollapseBtnDiv{
+.Collapsed-mainCollapseBtnDiv{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px;
+
 }
 
-.mainCollapseBtn{
+.Collapsed-mainCollapseBtn{
     background-color: transparent;
     color: white;
     border: 0 solid transparent;
@@ -63,11 +69,11 @@ html, body {
     justify-content: center;
 }
 
-.mainCollapseBtn:hover{
+.Collapsed-mainCollapseBtn:hover{
     background-color: #530000;
 }
 
-.CollapseIcon{
+.Collapsed-CollapseIcon{
     color: white;
     font-size: 25px;
     width: 40px;
@@ -76,45 +82,51 @@ html, body {
     padding: 5px;
 }
 
-.mainSection{
+.Collapsed-mainSection{
     min-height: 0 !important;
 }
 
-.sideBar > .mainSection nav ul li{
+.Collapsed-sideBar > .Collapsed-mainSection nav ul li{
     color: white;
-    font-size: 25px;
-    text-align: left;
-    padding: 10px;
-    padding-left: 20px;
+    font-size: 20px;
+    text-align: center;
     list-style: none;
 }
 
-.sideBarIcons{
-    width: 30px;
-    height: 30px;
+.Collapsed-sideBarIcons{
+    width: 40px;
+    height: 60px;
+    color: white;
 }
 
-.sideBarItems{
+
+.Collapsed-sideBarItems{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
-.sideBar > .mainSection nav ul li.active{
+.Collapsed-sideBar > .Collapsed-mainSection nav ul li:hover{
     color: black;
     background-color: #FDF0D5;
+    cursor: pointer;
 }
 
-.bottomSection{
+.Collapsed-sideBar > .Collapsed-mainSection nav ul li:hover .Collapsed-sideBarIcons{
+    color: black;
+}
+
+.Collapsed-bottomSection{
     display: flex;
     justify-content: center;
 }
 
-.signOutIcon{
+.Collapsed-signOutIcon{
     rotate: 180deg;
 }
 
-.signOutBtn{
+.Collapsed-signOutBtn{
     width: 250px;
     margin: 20px;
     height: 46px;
@@ -124,14 +136,17 @@ html, body {
     border-radius: 5px;
     font-size: 25px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.signOutDiv{
+.Collapsed-signOutDiv{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.signOutBtn:hover{
+.Collapsed-signOutBtn:hover{
     background: #00273c;
 }
